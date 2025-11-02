@@ -1,0 +1,5 @@
+Classificador,Acurácia,Precisão,Recall,F1-Score,Tempo Treino (s),Tempo Teste (s)
+KNN (Classificação),1.0000,1.0000,1.0000,1.0000,0.0000,1.4355
+KNN (Regressão),nan,nan,nan,nan,0.0000,1.4370
+Bayes Univariado,0.8073,0.8168,0.7997,0.8022,0.0000,0.0130
+Bayes Multivariado,0.9891,0.9885,0.9899,0.9890,0.0010,0.0320
