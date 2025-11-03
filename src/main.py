@@ -9,9 +9,11 @@ from bayes_multivariado import BayesMultivariado
 from cross_validation import k_fold_split
 
 def main():
-    data = np.loadtxt("data/data_banknote_authentication.txt", delimiter=',')
+    data = np.loadtxt("data/data_banknote_authentication.csv", delimiter=',')
     X = data[:, :-1]
     y = data[:, -1]
+
+    X = normalize(X)
 
     folds = k_fold_split(X, y, k=10, random_state=42)
 

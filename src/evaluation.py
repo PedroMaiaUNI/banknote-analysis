@@ -66,12 +66,12 @@ def summarize_results(results, out_path):
     for name, res in results:
         line = (
             f"{name},"
-            f"{res['acc_mean']:.2f} ± {res['acc_std']:.2f},"
-            f"{res['prec_mean']:.2f} ± {res['prec_std']:.2f},"
-            f"{res['rec_mean']:.2f} ± {res['rec_std']:.2f},"
-            f"{res['f1_mean']:.2f} ± {res['f1_std']:.2f},"
-            f"{res['train_mean']:.2f} ± {res['train_std']:.2f},"
-            f"{res['test_mean']:.2f} ± {res['test_std']:.2f}\n"
+            f"{res['acc_mean']:.5f} ± {res['acc_std']:.5f},"
+            f"{res['prec_mean']:.5f} ± {res['prec_std']:.5f},"
+            f"{res['rec_mean']:.5f} ± {res['rec_std']:.5f},"
+            f"{res['f1_mean']:.5f} ± {res['f1_std']:.5f},"
+            f"{res['train_mean']:.5f} ± {res['train_std']:.5f},"
+            f"{res['test_mean']:.5f} ± {res['test_std']:.5f}\n"
         )
         lines.append(line)
 

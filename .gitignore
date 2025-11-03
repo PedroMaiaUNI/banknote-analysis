@@ -5,3 +5,4 @@ tests/
 results/*.txt
 slides/*.pptx
 data/*.txt
+data/pima-indians-diabetes.data.csv
