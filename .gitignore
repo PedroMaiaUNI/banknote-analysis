@@ -4,3 +4,4 @@ env/
 tests/
 results/*.txt
 slides/*.pptx
+data/*.txt
